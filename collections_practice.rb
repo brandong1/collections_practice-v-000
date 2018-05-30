@@ -56,5 +56,9 @@ def add_s(array)
     end
     return s_add
   end
-  
+
+# Couldn't figure out the elegant way, had to google
+# def add_s(array)
+#  array.each_with_index.map {|e, i| i == 0 || i >=2 ? e << "s" : e << "" }
+# end
   
