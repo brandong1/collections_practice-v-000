@@ -30,3 +30,5 @@ def kesha_maker(array)
   end
     return array # returns the new, altered array
 end
+
+def find_a(array)
