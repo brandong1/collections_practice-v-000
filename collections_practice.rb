@@ -46,4 +46,13 @@ def sum_array(array)
 end
 
 def add_s(array)
-  
+  s_add = []
+  array.each do |word|
+    if word == array[1] then
+      s_add << word
+    else
+      s_add << word += "s"
+    end
+    end
+    return s_add
+  end
